@@ -1,0 +1,21 @@
+{
+    "require": {
+        "bramus/router": "~1.6",
+        "vlucas/phpdotenv": "^5.3",
+        "filp/whoops": "^2.14",
+        "james-heinrich/phpthumb": "^1.7",
+        "rakit/validation": "^1.4",
+        "mongodb/mongodb": "^1.8",
+        "aws/aws-sdk-php": "^3.198",
+        "phpoffice/phpspreadsheet": "^1.18",
+        "webonyx/graphql-php": "^14.11",
+        "jenssegers/blade": "^1.4",
+        "shmax/graphql-php-validation-toolkit": "^0.4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Support\\": "Support/",
+            "Controllers\\": "Controllers/"
+        }
+    }
+}
